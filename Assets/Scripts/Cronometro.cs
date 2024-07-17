@@ -18,8 +18,8 @@ public class Cronometro : MonoBehaviour {
 
 	public Image masTiempo;
 
-	//public GameObject popGameOverGO;
-	//public PopGameOver popGameOverScript;
+	public GameObject popGameOverGO;
+	public PopGameOver popGameOverScript;
 
 	// Use this for initialization
 	void Start () 
@@ -52,8 +52,8 @@ public class Cronometro : MonoBehaviour {
 		if(tiempo <= 0.00f && motorCarreterasScript.juegoTerminado == false)
 		{
 			motorCarreterasScript.juegoTerminado = true;
-		//	popGameOverGO.SetActive(true);
-		//	popGameOverScript.ActivoGameOver();
+		popGameOverGO.SetActive(true);
+		popGameOverScript.ActivoGameOver();
 
 		}
 

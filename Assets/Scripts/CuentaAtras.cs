@@ -27,7 +27,7 @@ public class CuentaAtras : MonoBehaviour {
 		// Le digo que reproductor hace referencia al audioSource que tiene 
 		// el GameObject que contiene este script
 		reproductor = this.gameObject.GetComponent<AudioSource>();
-		IniciarCuentaAtras();
+		//IniciarCuentaAtras();
 
 	}
 
